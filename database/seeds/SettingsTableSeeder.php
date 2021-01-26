@@ -15,7 +15,7 @@ class SettingsTableSeeder extends Seeder
     {
         DB::table('settings')->insert([
             'id' => '1',
-            'name' => 'ÇoSpaceHub',
+            'name' => 'CoSpaceHub',
             'email' => 'cospacehub@gmail.com',
             'phone' => '+8801303062727',
             'address' => 'Dhaka City College',
