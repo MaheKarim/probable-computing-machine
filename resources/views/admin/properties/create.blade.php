@@ -40,14 +40,14 @@
 
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input type="number" class="form-control" name="bedroom" required>
-                            <label class="form-label">Bedroom</label>
+                            <input type="text" class="form-control" name="bedroom" required>
+                            <label class="form-label">Room / Seat</label>
                         </div>
                     </div>
 
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input type="number" class="form-control" name="bathroom" required>
+                            <input type="text" class="form-control" name="bathroom" required>
                             <label class="form-label">Bathroom</label>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
 
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input type="number" class="form-control" name="area" required>
+                            <input type="text" class="form-control" name="area" required>
                             <label class="form-label">Area</label>
                         </div>
                         <div class="help-info">Square Feet</div>
@@ -114,7 +114,7 @@
                             <label>Select Purpose</label>
                             <select name="purpose" class="form-control show-tick">
                                 <option value="">-- Please select --</option>
-                                <option value="sale">Sale</option>
+                                {{--  <option value="sale">Sale</option>  --}}
                                 <option value="rent">Rent</option>
                             </select>
                         </div>
@@ -127,6 +127,8 @@
                                 <option value="">-- Please select --</option>
                                 <option value="house">House</option>
                                 <option value="apartment">Apartment</option>
+                                <option value="seat">Seat</option>
+                               
                             </select>
                         </div>
                     </div>
