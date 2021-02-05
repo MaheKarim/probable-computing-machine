@@ -110,7 +110,8 @@
                         <div class="card testimonial-card">
                             <span style="height:20px;display:block;"></span>
                             <div class="card-image testimonial-image">
-                                <img src="{{Storage::url('testimonial/'.$testimonial->image)}}">
+                             //   <img src="{{Storage::url($testimonial->image)}}">
+                             <img src="{{asset('public/').$testimonial->image}}"
                             </div>
                             <div class="card-content">
                                 <span class="card-title">{{$testimonial->name}}</span>
